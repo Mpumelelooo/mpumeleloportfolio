@@ -1,0 +1,211 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+  background-image: url(mangwanepictures/newmgback.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat";
+
+}
+  .Logo img{
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+
+}
+
+h1, h2, p{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+text-align: center;
+color: white;
+font-size: 2.5rem;
+line-height: 1.2;
+}
+
+.tagline{
+text-align: center;
+padding: 20px;
+}
+
+.about-div{
+margin: 20px auto;
+max-width: 800px;
+text-align: center;
+color: white;
+
+}
+.about-text{
+margin: 20px auto;
+max-width: 800px;
+text-align: justify;
+color: white;
+
+}
+.service-box, .wedding-catering, .party-catering, .funeral-catering, .unveiling-catering{
+margin: 20px auto;
+max-width: 800px;
+text-align: center;
+
+}
+h2 {
+color: white;
+margin-bottom: 10px;
+
+}
+
+p{
+  color: white;
+  line-height: 1.6;
+}
+
+.enquire-btn{
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(96, 44, 44);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+}
+
+.enquire-btn:hover{
+  background-color: brown;
+}
+
+.map{
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+iframe{
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  border: 0;
+}
+
+.footer-board{
+  background-color: rgb(96, 44, 44);
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px){
+  h1 {
+    font-size: 2rem;
+  }
+
+  .logo img{
+    width: 60%;
+  }
+
+  .about-text, .service-box, .map {
+    padding: 0 20px;
+  }
+
+  iframe{
+    max-width: 100%;
+  }
+
+  .enquire-btn{
+    width: 150px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-text, .service-box {
+    padding: 0 10px;
+  }
+
+  .enquire-btn{
+    width: 120px;
+    font-size: 0.8rem;
+  }
+}
+
+.client-note{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.client-text{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.client-name{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.client-para{
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+.client-note{
+  padding: 10px;
+}
+
+.client-text{
+  font-size: 1.2rem;
+}
+
+.client-name{
+  font-size: 1rem;
+}
+
+.client-para{
+  font-size: 0.9rem;
+}
+}
+
+.thembi-note{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.thembi-name{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.thembi-para{
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+.thembi-note{
+  padding: 10px;
+}
+
+.thembi-name{
+  font-size: 1rem;
+}
+
+.thembi-para{
+  font-size: 0.9rem;
+}
+}
