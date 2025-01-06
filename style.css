@@ -1,0 +1,164 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+  background-image: url(portfoliopictures/portbg5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat";
+
+}
+  .Logo img{
+  width: 70%;
+  max-width: 250px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 200px;
+
+}
+
+h1 {
+text-align: center;
+color: white;
+font-size: 2rem;
+margin-bottom: 10px;
+
+}
+.greetings{
+  text-align: center;
+  color: rgb(140, 222, 140);
+  font-size: 1.8rem;
+
+}
+
+h2{
+  color: rgb(140, 222, 140);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+p{
+  color: white;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin: 10px auto;
+  max-width: 90%;
+  text-align: justify;
+}
+
+.tagline,
+.biography,
+.skills,
+.projects {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 90%;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+
+}
+th, td {
+  border:1px solid white;
+  color: white;
+  padding: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+button{
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(65, 91, 65);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+  font-size: 0.9rem;
+
+}
+
+button:hover{
+  background-color: rgb(30, 129, 30);
+}
+
+.footer-board{
+  text-align: center;
+  color: rgb(140, 222, 140);
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .Logo img {
+    width: 80%;
+    max-width: 200px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .greetings {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  button {
+   width: 90%;
+  }
+  }
+
+  @media screen and (max-width: 480px) {
+    .Logo img {
+      width: 90%;
+      max-width: 150px;
+    }
+
+    h1 {
+      font-size: 1.2rem;
+    }
+
+    .greetings {
+      font-size: 1.2rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+
+    table {
+      font-size: 0.7rem;
+    }
+
+    button {
+      width: 100%
+    }
+  }
+
