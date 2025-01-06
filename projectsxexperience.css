@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+  background-image: url(portfoliopictures/portbg6.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat";
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  
+  }
+
+  .greetings{
+    text-align: center;
+    color: rgb(140, 222, 140);
+    font-size: 1.8rem;
+  
+  }
+
+  h2{
+    color: rgb(140, 222, 140);
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  p{
+    color: white;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    margin: 10px auto;
+    max-width: 90%;
+    text-align: justify;
+  }
+
+
+.tagline,
+.biography,
+.skills,
+.projects {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 90%;
+}
+
+
+button{
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(65, 91, 65);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+  font-size: 0.9rem;
+
+}
+
+button:hover{
+  background-color: rgb(30, 129, 30);
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: auto;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+    text-align: left;
+  }
+
+  button {
+    font-size: 0.7rem;
+    width: 90%;
+    padding: 6px;
+  }
+}
+
+@media (min-width: 769px) {
+  .projects {
+    max-width: 60%;
+  }
+}
+  
