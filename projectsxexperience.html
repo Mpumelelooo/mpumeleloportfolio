@@ -1,149 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects & Experience</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-  <link rel="icon" type="image/x-icon" href="portfoliopictures/portbg2.jpeg">
-  <link rel="stylesheet" href="projectsxexperience.css">
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects & Experience | Portfolio</title>
+    
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="portfoliopictures/portpro2.jpeg">
+    <link rel="stylesheet" href="projectsxexperience.css">
 </head>
 <body>
-  
-  <div class="projects">
-    <h1 class="projects-text">MY PROJECTS & EXPERIENCES</h1><br>
-    <h1 class="projects-text">RECENT WORK</h1><br>
-    <br>
-     <div class="projects">
 
- <h2 class="uiuxdesign-text">Mock IOTREND Campaign </h2>
-    <br>
-     <p class="thanks-para">
-     A mockup I designed for assessment purposes.
-      <br><br>
-   </p>
-      <button onclick="location.href='https://m-lounge.github.io/mpumeleloiotrend/'" class="licence-btn"> Mock IOTREND Campaign)</button><br><br>
-      <p class="thanks-para">
-       
+    <!-- Falling Code Background -->
+    <canvas id="code-bg"></canvas>
 
-   <h2 class="uiuxdesign-text">M-Lounge (Development Phase) (2025)</h2>
-    <br>
-     <p class="thanks-para">
-     A ShortFilm platform i built for independent filmmakers.
-      <br><br>
-   </p>
-      <button onclick="location.href='https://m-lounge.github.io/m-lounge/'" class="licence-btn"> M-Lounge (September 2025)</button><br><br>
-      <p class="thanks-para">
+    <div class="container">
+        <!-- Hero -->
+        <header>
+            <p class="hero-label">My Recent Work</p>
+            <h1 class="main-title">Selected Works <span>&</span> Professional Experience</h1>
+            <p class="subtitle">My strategic approach to design and development, balancing aesthetic precision with functional execution.</p>
+        </header>
 
+        <!-- Primary Showcase -->
+        <section id="development">
+            <h2 class="section-header">Active Development</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div>
+                        <h3>M-Lounge</h3>
+                        <p>A sophisticated platform for independent filmmakers. Focused on minimalist navigation and cinematic presentation.</p>
+                    </div>
+                    <a href="https://m-lounge.github.io/m-lounge/" class="btn">VIEW</a>
+                </div>
+                <div class="project-card">
+                    <div>
+                        <h3>IZWE-RISE</h3>
+                        <p>Education technology designed for impact. Preparing learners through intentional interface design.</p>
+                    </div>
+                    <a href="https://izwe-rise.github.io/izwerise/" class="btn">VIEW</a>
+                </div>
+            </div>
+        </section>
 
-      <h2 class="uiuxdesign-text">IZWE-RISE (Development Phase) (2025)</h2>
-    <br>
-     <p class="thanks-para">
-     A platform i built for High School Learners in preparation for their final exams.
-      <br><br>
-   </p>
-      <button onclick="location.href='https://izwe-rise.github.io/izwerise/'" class="licence-btn"> IZWE-RISE  (September 2025)</button><br><br>
-      <p class="thanks-para">
-  
+        <!-- Client Work -->
+        <section id="experience">
+            <h2 class="section-header">Previous Experiences</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div>
+                        <h3>Meeco Tri-Masters</h3>
+                        <p>(Feb 2025 - Aug 2025).</p>
+                    </div>
+                    <a href="meeco.html" class="btn">VIEW</a>
+                </div>
+                <div class="project-card">
+                    <div>
+                        <h3>TRU Mettus</h3>
+                        <p>(September 2025).</p>
+                    </div>
+                    <a href="https://tru-mettus.github.io/assessment/" class="btn">VIEW</a>
+                </div>
+            </div>
+        </section>
 
-    <h2 class="uiuxdesign-text">TRU Mettus Project (2025)</h2>
-    <br>
-      <button onclick="location.href='https://tru-mettus.github.io/assessment/'" class="licence-btn"> TRU Mettus Project (September 2025)</button><br><br>
+        <!-- Skills Categories -->
+        <section id="specializations">
+            <div class="category-block">
+                <h2 class="section-header">Frontend Development</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>SA Licence Redesign</h3>
+                        <p>Transforming government accessibility through modern UX principles.</p>
+                        <a href="https://mpumelelooo.github.io/licencedepartmentredesign/" class="btn btn-peach">VIEW</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Mangwane Catering</h3>
+                        <p>Bespoke digital presence for high-end hospitality services.</p>
+                        <a href="https://mpumelelooo.github.io/mangwanecatering-website/" class="btn btn-peach">VIEW</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Maluvha Florist</h3>
+                        <p>E-commerce centered around soft visuals and organic flow.</p>
+                        <a href="https://mpumelelooo.github.io/Maluvha-Florist/" class="btn btn-peach">VIEW</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Capitec Exploration</h3>
+                        <p>Independent strategic redesign for financial clarity.</p>
+                        <a href="https://mpumelelooo.github.io/capitecredesign/" class="btn btn-peach">VIEW</a>
+                    </div>
+                </div>
+            </div>
 
-    <h2 class="uiuxdesign-text">MEECO TRI-MASTERS (2025)</h2>
-    <br>
-      <button onclick="location.href='meeco.html'" class="meeco-btn"> Meeco Tri-Masters (Feb 2025 – Aug 2025)</button><br><br>
+            <div class="category-block">
+                <h2 class="section-header">Creative & Media</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Graphic Design</h3>
+                        <p>Professional visual identity and brand execution across various mediums.</p>
+                        <a href="graphic.html" class="btn">VIEW</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Film & Editing</h3>
+                        <p>Narrative storytelling through Kyknet features and commercial projects.</p>
+                        <a href="tjommies.html" class="btn">VIEW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-     <div class="projects">
-    <h2 class="uiuxdesign-text">ORLANDO PIRATES PASSION PROJECT (2025)</h2>
-    <br>
-      <button onclick="location.href='OPFC.HTML'" class="OPFC-btn"> ORLANDO PIRATES PASSION PROJECT</button><br><br>
-      
-    <br><br><br>
-   </div>
+        <!-- Break -->
+        <section class="break-section">
+            <h2 class="section-header" style="margin-bottom: 20px;">The Lounge</h2>
+            <p style="margin-bottom: 30px; font-weight: 300;">A brief moment of interaction. Explore my iteration of the classic Snake game.</p>
+            <a href="snakegame.html" class="btn btn-peach">Enter Game</a>
+        </section>
 
+        <!-- Contact -->
+        <footer>
+            <h2 class="section-header">Get In Touch</h2>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <span>Direct Email</span>
+                    <a href="mailto:mbongisenimpumelelo@icloud.com">mbongisenimpumelelo@icloud.com</a>
+                </div>
+                <div class="contact-item">
+                    <span>Mobile Reach</span>
+                    <p>069 513 7460</p>
+                </div>
+            </div>
 
-   <div class="projects">
-    <h2 class="graphic-text">GRAPHIC DESIGN</h2>
-    <br>
-      <button onclick="location.href='graphic.html'" class="graphic-btn">Graphic Work</button><br><br>
-  
-    <br><br><br><br><br><br>
-   </div>
+            <div class="thanks-message">
+                "Thank you for taking the time to explore my work. I look forward to the possibility of bringing your vision to life with precision and care."
+            </div>
+            
+            <p style="font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: #BBB; margin-top: 40px;">
+                &copy; 2026 Designed by Mpumelelo Hlongwane
+            </p>
+        </footer>
+    </div>
 
+    <script>
+        /**
+         * Falling Code Background Effect
+         */
+        const initCodeBackground = () => {
+            const canvas = document.getElementById('code-bg');
+            const ctx = canvas.getContext('2d');
+            
+            let width, height;
+            const codeSnippets = ['<div>', 'const', '=>', 'export', 'float', 'main()', '{ }', 'color:', 'flex', 'grid', 'async', 'await', '01'];
+            let particles = [];
 
-    <h2 class="frontend-text">FRONTEND DEVELOPMENT</h2>
-    <br>
-  
-    <button onclick="location.href='https://mpumelelooo.github.io/licencedepartmentredesign/'" class="licence-btn"> South African Licence Department (2025)</button><br><br>
-      <button onclick="location.href='https://mpumelelooo.github.io/mangwanecatering-website/'" class="mangwane-btn"> Mangwane Catering (2024)</button><br><br>
-      <button onclick="location.href='https://mpumelelooo.github.io/Maluvha-Florist/'" class="maluvha-btn"> Maluvha Florist (2024)</button><br><br>
-      <button onclick="location.href='https://mpumelelooo.github.io/capitecredesign/'" class="capitec-btn"> Capitec Redesign (2024)</button><br><br>
-      <button onclick="location.href='https://mpumelelooo.github.io/Edu-AddingFun/'" class="edume-btn"> AddingFun (2024)</button>
-      
-    <br><br><br><br><br><br>
-   </div>
-  
-   <div class="projects">
-    <h2 class="uiuxdesign-text">UI/UX DESIGN</h2>
-    <br>
-      <button onclick="location.href='mangwanecase.html'" class="mangwane-btn"> Mangwane Case Study</button><br><br>
-      <button onclick="location.href='maluvhacase.html'" class="maluvha-btn"> Maluvha Case Study</button><br><br>
-      <button onclick="location.href='capiteccase.html'" class="capitec-btn"> Capitec Case Study</button><br><br>
-      <button onclick="location.href='addingfuncase.html'" class="edume-btn"> AddingFun Case Study</button>
-      
-    <br><br><br><br><br><br>
-   </div>
-  
-   <div class="projects">
-    <h2 class="film-text">FILMMAKING & EDITING</h2>
-    <br>
-      <button onclick="location.href='tjommies.html'" class="tjommies-btn"> Tjommies Kyknet Movie</button><br><br>
-      <button onclick="location.href='bankvas.html'" class="bankvas-btn"> Bankvas Kyknet Movie</button><br><br>
-      <button onclick="location.href='spotify.html'" class="spotify-btn"> Spotify Commercial</button><br><br>
-      <button onclick="location.href='psa.html'" class="psa-btn"> Mental Health Awareness PSA</button>
-      
-    <br><br><br><br><br><br>
-   </div>
-  
+            const resize = () => {
+                width = canvas.width = window.innerWidth;
+                height = canvas.height = window.innerHeight;
+            };
 
-   <div class="projects">
-    <h2 class="snake-text">TAKE A BREAK!</h2>
-    <p class="snake-para">
-      Feel free to play my version of the classic Snake Game! Built using HTML, CSS, and JavaScript.
-    </p><br><br>
-    <button onclick="location.href='snakegame.html'" class="play-btn">PLAY!</button><br><br>
-   
-  
-    <br><br><br><br><br><br>
-   </div>
+            class Particle {
+                constructor() {
+                    this.init();
+                }
+                init() {
+                    this.x = Math.random() * width;
+                    this.y = Math.random() * -height;
+                    this.speed = 0.5 + Math.random() * 1.5;
+                    this.text = codeSnippets[Math.floor(Math.random() * codeSnippets.length)];
+                    this.fontSize = 10 + Math.random() * 12;
+                    this.opacity = 0.1 + Math.random() * 0.3;
+                }
+                draw() {
+                    ctx.fillStyle = `rgba(75, 56, 50, ${this.opacity})`;
+                    ctx.font = `${this.fontSize}px monospace`;
+                    ctx.fillText(this.text, this.x, this.y);
+                    this.y += this.speed;
 
-   <div class="projects">
-    <h2 class="contactme-text">GET IN TOUCH WITH ME</h2>
-    <p class="contactme-para">
-      Email: &nbsp;&nbsp;   <strong> mbongisenimpumelelo@icloud.com</strong><br><br>
-      Cellphone Number:&nbsp;&nbsp; <strong> 069 513 7460 </strong> 
-      <br><br><br><br><br>
-   </p>
-   </div>
-  
-   <div class="projects">
-    <h2 class="thanks-text">THANK YOU FOR VISITING!</h2>
-    <p class="thanks-para">
-      Thank you for taking the time to explore my portfolio. I'm excited about the opportunity to<br>
-      work at the company and help bring the vision to life.  
-      <br><br><br><br><br>
-   </p>
-   </div>
-  
-   <script src="js/script.js"></script>
+                    if (this.y > height) {
+                        this.init();
+                        this.y = -20;
+                    }
+                }
+            }
 
+            const setup = () => {
+                resize();
+                particles = Array.from({ length: 40 }, () => new Particle());
+            };
+
+            const animate = () => {
+                ctx.clearRect(0, 0, width, height);
+                particles.forEach(p => p.draw());
+                requestAnimationFrame(animate);
+            };
+
+            window.addEventListener('resize', resize);
+            setup();
+            animate();
+        };
+
+        /**
+         * Vanilla JavaScript Intersection Observer
+         * Handles the subtle fade-in and slide-up of sections
+         */
+        const observeSections = () => {
+            const options = {
+                threshold: 0.15,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+
+            document.querySelectorAll('section').forEach(section => {
+                observer.observe(section);
+            });
+        };
+
+        window.addEventListener('DOMContentLoaded', () => {
+            initCodeBackground();
+            observeSections();
+        });
+    </script>
 </body>
 </html>
-
