@@ -1,211 +1,37 @@
-body{
-  margin: 0;
-  padding: 0;
-  background-color: bisque;
-  background-image: url(meecopictures/meecobg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: "Montserrat";
+  :root {
+            --iotrend-red: #E32929;
+            --matte-black: #0D0D0D;
+            --soft-grey: #F9F9F9;
+        }
 
-}
-  .Logo img{
-  width: 80%;
-  max-width: 300px;
-  margin: 20px auto;
-  display: block;
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--soft-grey);
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
 
-}
+        .premium-border {
+            border-left: 3px solid var(--iotrend-red);
+        }
 
-h1, h2, p{
-  margin: 0;
-  padding: 0;
-}
+        .hero-gradient {
+            background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%);
+        }
 
-h1{
-text-align: center;
-color: red;
-font-size: 2.5rem;
-line-height: 1.2;
-}
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
 
-.tagline{
-text-align: center;
-padding: 20px;
-}
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+        }
 
-.about-div{
-margin: 20px auto;
-max-width: 800px;
-text-align: center;
-color: black;
+        h1, h2, .playfair {
+            font-family: 'Playfair Display', serif;
+        }
 
-}
-.about-text{
-margin: 20px auto;
-max-width: 800px;
-text-align: justify;
-color: black;
-
-}
-.service-box, .wedding-catering, .party-catering, .funeral-catering, .unveiling-catering{
-margin: 20px auto;
-max-width: 800px;
-text-align: center;
-
-}
-h2 {
-color: black;
-margin-bottom: 10px;
-
-}
-
-p{
-  color: black;
-  line-height: 1.6;
-}
-
-.enquire-btn{
-  display: block;
-  margin: 20px auto;
-  background-color: rgb(96, 44, 44);
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-family: 'Montserrat';
-  cursor: pointer;
-  text-align: center;
-  width: 200px;
-}
-
-.enquire-btn:hover{
-  background-color: brown;
-}
-
-.map{
-  margin: 20px auto;
-  max-width: 600px;
-  text-align: center;
-}
-
-iframe{
-  width: 100%;
-  max-width: 400px;
-  height: 300px;
-  border: 0;
-}
-
-.footer-board{
-  background-color: rgb(96, 44, 44);
-  text-align: center;
-  color: white;
-  padding: 20px 0;
-}
-
-@media (max-width: 768px){
-  h1 {
-    font-size: 2rem;
-  }
-
-  .logo img{
-    width: 60%;
-  }
-
-  .about-text, .service-box, .map {
-    padding: 0 20px;
-  }
-
-  iframe{
-    max-width: 100%;
-  }
-
-  .enquire-btn{
-    width: 150px;
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .about-text, .service-box {
-    padding: 0 10px;
-  }
-
-  .enquire-btn{
-    width: 120px;
-    font-size: 0.8rem;
-  }
-}
-
-.client-note{
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-}
-
-.client-text{
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.client-name{
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.client-para{
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-@media (max-width: 768px) {
-.client-note{
-  padding: 10px;
-}
-
-.client-text{
-  font-size: 1.2rem;
-}
-
-.client-name{
-  font-size: 1rem;
-}
-
-.client-para{
-  font-size: 0.9rem;
-}
-}
-
-.thembi-note{
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-}
-
-.thembi-name{
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.thembi-para{
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-@media (max-width: 768px) {
-.thembi-note{
-  padding: 10px;
-}
-
-.thembi-name{
-  font-size: 1rem;
-}
-
-.thembi-para{
-  font-size: 0.9rem;
-}
-}
+        .letter-spacing-widest {
+            letter-spacing: 0.3em;
+        }
